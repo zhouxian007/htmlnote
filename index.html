@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML入门笔记1</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+
+      box-sizing: border-box;
+      padding: 0;
+    }
+    *::after,
+    *::before {
+      box-sizing: border-box;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: normal;
+    }
+
+    h2 {
+      font-size: 26px;
+      margin: 1em auto 1em auto;
+    }
+    h3 {
+      font-size: 20px;
+      margin: 1em auto 1em auto;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    ul li,
+    ol {
+      list-style: none;
+      padding: 0.5%;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+    .m {
+      display: block;
+      margin: auto 157px 30px;
+    }
+    img {
+      text-align: center;
+    }
+    p {
+      margin: 1em auto 1em auto;
+    }
+    header {
+      margin: auto 157px auto;
+      padding: 1% 1% 1% 0%;
+    }
+    footer {
+      margin: auto 157px auto;
+      padding: 1% 1% 1% 0%;
+    }
+  </style>
+  <body>
+    <header>注：本内容由版权由杭州饥人谷教育科技有限公司所有</header>
+    <hr />
+    <main class="m">
+      <section>
+        <section>
+          <h2>1.HTML发明人</h2>
+          <p>
+            HTML的英文全称是 Hyper Text Marked
+            Language，即超文本标记bai语du言。<br />是由Web的发明者 Tim
+            Berbers-Lee和同事zhi Daniel W. Connolly于1990年创立的一种标记语言。
+          </p>
+        </section>
+        <section>
+          <h2>2.HTML 起手</h2>
+          <p>在VsCode里面操作：！DOCTYPE html</p>
+          <p><img src="1.jpg" alt="示例图" /></p>
+          <p><img src="2.jpg" alt="示例图" /></p>
+        </section>
+        <section>
+          <h2>3.常用的表章节的标签有哪些，分别是什么意思 ?</h2>
+          <h3>html常用的表章节的标签有:</h3>
+          <ul>
+            <code>
+              <li>h1~h6标签：标题标签</li>
+              <li>section标签：章节标签</li>
+              <li>article标签：文章标签</li>
+              <li>p标签：文字段落标签</li>
+              <li>header标签：头部标签</li>
+              <li>main标签：内容标签</li>
+              <li>footer标签：底部标签</li>
+              <li>aside标签：旁支标签</li>
+              <li>div标签：划分，块级标签</li>
+            </code>
+          </ul>
+        </section>
+        <section>
+          <h2>全局属性有哪些 ?</h2>
+          <h3>全局属性有：</h3>
+          <ul>
+            <code>
+              <li>class:样式配对</li>
+              <li>contenteditable:可编辑的任何元素</li>
+              <li>hidden:隐藏元素</li>
+              <li>
+                id：全局唯一，单用两个相同id也不会报错，除非js相关才会用到，否则慎用，一般还是class
+              </li>
+              <li>style：可以编辑class属性的元素</li>
+              <li>
+                tabindex：用来控制TAB键，通过顺序1-...数字不用挨着，0代表最后，-1代表不会TAB到
+              </li>
+              <li>title标签：鼠标停留显示所有内容元素</li>
+              <li>
+                <p style="color: red">
+                  注：属性值的话javaScript>style>css里面的优先级
+                </p>
+              </li>
+            </code>
+          </ul>
+        </section>
+        <section>
+          <h2>常用的内容标签有哪些，分别是什么意思?</h2>
+          <h3>常用的内容标签有:</h3>
+          <ul>
+            <code>
+              <li>ol li:有序列表</li>
+              <li>ul li:无序列表</li>
+              <li>dl dt dd:也是类似表格一样的标签</li>
+              <li>
+                pre:保留回车空格，回车和空格的数量是多少就是多少，框起来就行了
+              </li>
+              <li>code：内容格式等宽，非常好用</li>
+              <li>hr：华丽的分割线标签</li>
+              <li>a：超链接标签</li>
+              <li>em：语义语气上强调标签；默认斜体</li>
+              <li>strong：语义加粗；强调重要性</li>
+              <li>quote：不换行的引用，内联引用</li>
+              <li>blockquote:可换行的引用，块级引用</li></code
+            >
+          </ul>
+        </section>
+      </section>
+    </main>
+    <hr />
+    <footer>&copy杭州饥人谷教育科技有限公司 . 学员-周显 版权所有</footer>
+  </body>
+</html>
